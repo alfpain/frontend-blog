@@ -1,0 +1,58 @@
+.home {
+    border: 2px solid;
+    border-radius: 25px;
+    height: 30px;
+    width: 80px;
+    text-align:center;
+    float: right;
+    box-shadow: 2px 2px 2px #888888;
+    background: #dddddd;
+    -webkit-transition: width 2s, height 2s,-webkit-transform 2s;
+}
+.buscar {
+    border: 2px solid;
+    border-radius: 25px;
+    height: 30px;
+    width: 80px;
+    text-align:center;
+    float: right;
+    box-shadow: 2px 2px 2px #888888;
+    background: #dddddd;
+    -webkit-transition: width 2s, height 2s,-webkit-transform 2s;
+
+}
+.blog {
+    margin: 10px 10px 10px 50px;
+}
+.buscar:hover {
+    width: 80px;
+    height: 30px;
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+    background: #FFD700;
+}
+
+.home:hover {
+    width: 80px;
+    height: 30px;
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+    background: #FFD700;
+}
+.cuadro {background-color: #b0c4de; box-shadow: 2px 2px 2px #888888;}
+.cabeza {
+background-color: #b0c4de;
+text-align:center;
+border-style: outset;
+box-shadow: 2px 2px 2px #888888;
+}
+.texto1 {
+background-color: #b0c4de;
+text-align:center;
+border-style: outset;
+box-shadow: 2px 2px 2px #888888;
+    height: 300px;
+    width: 950px;
+margin: 10px 10px 10px 170px;
+}
+
