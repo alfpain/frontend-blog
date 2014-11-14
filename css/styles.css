@@ -18,19 +18,19 @@
     float: right;
     box-shadow: 2px 2px 2px #888888;
     background: #dddddd;
-    /*-webkit-transition: width 2s, height 2s,-webkit-transform 2s;
-*/
+-webkit-transition: width 2s, height 2s,-webkit-transform 2s;
+
 }
 .blog {
     margin: 10px 10px 10px 50px;
 }
-/*.buscar:hover {
+.buscar:hover {
     width: 80px;
     height: 30px;
     -webkit-transform: rotate(360deg); 
     transform: rotate(360deg);
     background: #FFD700;
-}*/
+}
 
 .home:hover {
     width: 80px;
@@ -70,15 +70,52 @@ margin:0 auto 0 auto;
 display: none;
 }
 
-.post2 {
+
+.texto2 {
 background-color: #b0c4de;
 text-align:center;
 border-style: outset;
 box-shadow: 2px 2px 2px #888888;
-height: 300px;
+    height: 300px;
     width: 950px;
-
+margin: 10px 10px 10px 170px;
 }
+
+.post2 {
+
+background-color: #b0c4de;
+text-align:center;
+border-style: outset;
+box-shadow: 2px 2px 2px #888888;
+    height: 300px;
+    width: 950px;
+/*margin: 10px 10px 10px 170px;*/
+margin:0 auto 0 auto;
+display: none;
+}
+.texto3 {
+background-color: #b0c4de;
+text-align:center;
+border-style: outset;
+box-shadow: 2px 2px 2px #888888;
+    height: 300px;
+    width: 950px;
+margin: 10px 10px 10px 170px;
+}
+
+.post3 {
+
+background-color: #b0c4de;
+text-align:center;
+border-style: outset;
+box-shadow: 2px 2px 2px #888888;
+    height: 300px;
+    width: 950px;
+/*margin: 10px 10px 10px 170px;*/
+margin:0 auto 0 auto;
+display: none;
+}
+
 
 /* ingresso */
 form {
@@ -102,6 +139,7 @@ form {
     font-family:garamond;
     color:#cc0000;
 }
+
 .button2{
     display: inline-block;
     height:20px;
@@ -121,7 +159,6 @@ form {
 }
 
 
-
 .aco {
     background-color:#AFEEEE; 
     margin:0 auto;
@@ -132,4 +169,44 @@ border-style: outset;
 box-shadow: 2px 2px 2px #888888;
     display: none;
 }
+.aco2 {
+    background-color:#AFEEEE; 
+    margin:0 auto;
+    width:950px; 
+    border-width: medium; border-style: outset;
+    text-align:center;
+border-style: outset;
+box-shadow: 2px 2px 2px #888888;
+    display: none;
+}
 
+
+.button3{
+    display: inline-block;
+    height:20px;
+    width:100px;
+    background-color:#cc0000;
+    font-family:arial;
+    font-weight:bold;
+    color:#ffffff;
+    border-radius: 5px;
+    text-align:center;
+    margin-top:2px;
+}
+
+.list3 {
+    font-family:garamond;
+    color:#cc0000;
+}
+
+
+.aco3 {
+    background-color:#AFEEEE; 
+    margin:0 auto;
+    width:950px; 
+    border-width: medium; border-style: outset;
+    text-align:center;
+border-style: outset;
+box-shadow: 2px 2px 2px #888888;
+    display: none;
+}
