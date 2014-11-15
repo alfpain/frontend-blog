@@ -194,15 +194,47 @@ var dateString =  m.getUTCFullYear() +"/"+
         $("input").val("");
         $(".list3").append("<div class='item'>" +"Usuario: "+ toAdd +"<br/>"+"comment: "+toAdd2+ "<br/>"+ dateString+"</div>" );
         });
-
-$(".buscar").click(function(){
-
-  buscar = prompt("to search?");
-  if (buscar == toAdd) {
-    confirm(buscar)
-  }
-  else {
-  confirm("no encontrado");
-  }
-})
+		
+	
+		
     });
+	
+$.expr[':'].icontains = function(obj, index, meta, stack){
+        return (obj.textContent || obj.innerText || jQuery(obj).text() || '').toLowerCase().indexOf(meta[3].toLowerCase()) >= 0;
+        };
+     
+     
+        $(document).ready(function(){    
+       
+            $('#buscador').keyup(function(){
+       
+                         buscar = $(this).val();
+                         $('.lista p').removeClass('resaltar');
+             
+                                if(jQuery.trim(buscar) != ''){
+                                   
+                                   $(".lista p:icontains('" + buscar + "')").addClass('resaltar');
+                                 
+                                }
+       
+       
+                });
+        });
+	
+$(document).ready(function() {
+	$('.buscador').hide();
+    $('.buscar').click(function() {
+        $('.buscador').show();
+
+	});
+	$('.blog').click(function() {
+		$('.buscador').hide();
+
+		$('resaltar').hide();
+    });
+		$('.home').click(function() {
+		$('.buscador').hide();
+
+		$('resaltar').hide();
+    });
+});

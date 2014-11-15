@@ -20,7 +20,9 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 
     <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
-
+	<style>
+    .resaltar{background-color:#F3F781;}
+    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,11 +36,19 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+	<ul class="lista">
     <div class="cuadro">
     <script src="js/script.js"></script>
     <script src="js/bootstrap.js"></script>
 
-    <div id = "buscar1"class="buscar"><p>buscar</p></div>
+    <div class="buscador">
+		<form class="formulario">
+		<input name="buscador" id="buscador" type="text" placeholder="Buscar..."/>
+		
+		</form>
+	</div>
+	<div class="buscar"><p>buscar</p></div>
+	
     <div class="home"><p>home</p></div>
 
     <div class="blog"><h1>Cognits Blog</h1></div>
@@ -122,7 +132,7 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
     </div>
     <br/>
   </div>
-
+</ul>
 
 
   </body>

@@ -20,7 +20,13 @@
     background: #dddddd;
 -webkit-transition: width 2s, height 2s,-webkit-transform 2s;
 
+} 
+.buscador {
+float: right;
+
 }
+
+
 .blog {
     margin: 10px 10px 10px 50px;
 }
