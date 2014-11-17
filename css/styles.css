@@ -1,5 +1,5 @@
 .home {
-    border: 2px solid;
+    
     border-radius: 25px;
     height: 30px;
     width: 80px;
@@ -7,10 +7,10 @@
     float: right;
     box-shadow: 2px 2px 2px #888888;
     background: #dddddd;
-    -webkit-transition: width 2s, height 2s,-webkit-transform 2s;
+    
 }
 .buscar {
-    border: 2px solid;
+    
     border-radius: 25px;
     height: 30px;
     width: 80px;
@@ -18,7 +18,7 @@
     float: right;
     box-shadow: 2px 2px 2px #888888;
     background: #dddddd;
--webkit-transition: width 2s, height 2s,-webkit-transform 2s;
+
 
 } 
 .buscador {
@@ -33,7 +33,7 @@ float: right;
 .buscar:hover {
     width: 80px;
     height: 30px;
-    -webkit-transform: rotate(360deg); 
+    
     transform: rotate(360deg);
     background: #FFD700;
 }
@@ -41,7 +41,7 @@ float: right;
 .home:hover {
     width: 80px;
     height: 30px;
-    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+     /* Chrome, Safari, Opera */
     transform: rotate(360deg);
     background: #FFD700;
 }
@@ -171,8 +171,8 @@ form {
     width:950px; 
     border-width: medium; border-style: outset;
     text-align:center;
-border-style: outset;
-box-shadow: 2px 2px 2px #888888;
+    
+    box-shadow: 2px 2px 2px #888888;
     display: none;
 }
 .aco2 {
@@ -181,7 +181,7 @@ box-shadow: 2px 2px 2px #888888;
     width:950px; 
     border-width: medium; border-style: outset;
     text-align:center;
-border-style: outset;
+
 box-shadow: 2px 2px 2px #888888;
     display: none;
 }
@@ -212,7 +212,7 @@ box-shadow: 2px 2px 2px #888888;
     width:950px; 
     border-width: medium; border-style: outset;
     text-align:center;
-border-style: outset;
+
 box-shadow: 2px 2px 2px #888888;
     display: none;
 }
