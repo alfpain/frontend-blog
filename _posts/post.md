@@ -1,9 +1,12 @@
-En este post se mostrara todo lo que han aprendido durante el curso!! donde aprendieron codeacademy y pudieron aprender su primer lenguaje de programcion y aprendieron muchas cosas sobre el lenguaje de python , ahora estan haciendo proyectos en html jquey javascript css esto es lo que funciona y lo que aprendieron en cognits .
+el común de la gente distorsiona el concepto de humildad, convirtiéndolo en
+ un servicio que consiste en no compartir con los demás aquellos logros que puedan herir 
+ su orgullo por no haber conseguido algo semejante. Retomando los dos 
+ ejemplos 
+ anteriores, seguramente nadie se enfadaría si un programa de televisión regalara un 
+ coche a la joven madre para ayudarla en su día a día; pero el Premio Nobel otorgado a 
+ una mujer que dedicó su vida entera a la investigación puede generar un 
+ mar de envidia 
+ y ataques infundados.
 
-si uste decea saber mas sobre estos proyectos o participar en esto puede comunicarse con los jefes de cognist 
-para que usted podra aplicar en sus plazas de entrenamiento
-tiene que cumplir los requisistos minimos
-tener dedicacion
-tener puntalualidad
-tener un deseo de aprender
-tener un deseo de querer trabjar
+
+ 
