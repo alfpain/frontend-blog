@@ -109,7 +109,7 @@ $("#texto2").click(function(){
 $("#texto3").click(function(){
         $("#post13").fadeIn("fast")
         $(".aco3").fadeIn("fast")
-        $("#comentario3").load("_posts/post.md");
+        $("#comentario3").load("_posts/post.txt");
     });
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
     $(".but3").click(function() {
